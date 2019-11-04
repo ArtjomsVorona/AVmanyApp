@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		AC118AFF236C82E700CBD327 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC118AFE236C82E700CBD327 /* AppDelegate.swift */; };
 		AC118B01236C82E700CBD327 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC118B00236C82E700CBD327 /* SceneDelegate.swift */; };
-		AC118B03236C82E700CBD327 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC118B02236C82E700CBD327 /* ViewController.swift */; };
 		AC118B06236C82E700CBD327 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC118B04236C82E700CBD327 /* Main.storyboard */; };
 		AC118B08236C82EE00CBD327 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC118B07236C82EE00CBD327 /* Assets.xcassets */; };
 		AC118B0B236C82EE00CBD327 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC118B09236C82EE00CBD327 /* LaunchScreen.storyboard */; };
+		AC118B13236C848100CBD327 /* DayFinderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC118B12236C848100CBD327 /* DayFinderViewController.swift */; };
+		AC118B15236C84DF00CBD327 /* TempConvertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC118B14236C84DF00CBD327 /* TempConvertViewController.swift */; };
+		AC118B1B236C87D200CBD327 /* AppInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC118B1A236C87D200CBD327 /* AppInfoViewController.swift */; };
+		AC118B1D236CC00D00CBD327 /* AppearanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC118B1C236CC00D00CBD327 /* AppearanceViewController.swift */; };
+		AC5FD9FC236E1BFE00727732 /* Alert-Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5FD9FB236E1BFE00727732 /* Alert-Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AC118AFB236C82E700CBD327 /* AVmanyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVmanyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC118AFE236C82E700CBD327 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC118B00236C82E700CBD327 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AC118B02236C82E700CBD327 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AC118B05236C82E700CBD327 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC118B07236C82EE00CBD327 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC118B0A236C82EE00CBD327 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC118B0C236C82EE00CBD327 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC118B12236C848100CBD327 /* DayFinderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayFinderViewController.swift; sourceTree = "<group>"; };
+		AC118B14236C84DF00CBD327 /* TempConvertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempConvertViewController.swift; sourceTree = "<group>"; };
+		AC118B1A236C87D200CBD327 /* AppInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfoViewController.swift; sourceTree = "<group>"; };
+		AC118B1C236CC00D00CBD327 /* AppearanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearanceViewController.swift; sourceTree = "<group>"; };
+		AC5FD9FB236E1BFE00727732 /* Alert-Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alert-Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +66,12 @@
 			children = (
 				AC118AFE236C82E700CBD327 /* AppDelegate.swift */,
 				AC118B00236C82E700CBD327 /* SceneDelegate.swift */,
-				AC118B02236C82E700CBD327 /* ViewController.swift */,
 				AC118B04236C82E700CBD327 /* Main.storyboard */,
+				AC118B1C236CC00D00CBD327 /* AppearanceViewController.swift */,
+				AC118B12236C848100CBD327 /* DayFinderViewController.swift */,
+				AC118B14236C84DF00CBD327 /* TempConvertViewController.swift */,
+				AC118B1A236C87D200CBD327 /* AppInfoViewController.swift */,
+				AC5FD9FB236E1BFE00727732 /* Alert-Ext.swift */,
 				AC118B07236C82EE00CBD327 /* Assets.xcassets */,
 				AC118B09236C82EE00CBD327 /* LaunchScreen.storyboard */,
 				AC118B0C236C82EE00CBD327 /* Info.plist */,
@@ -138,8 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC118B03236C82E700CBD327 /* ViewController.swift in Sources */,
+				AC5FD9FC236E1BFE00727732 /* Alert-Ext.swift in Sources */,
+				AC118B1B236C87D200CBD327 /* AppInfoViewController.swift in Sources */,
+				AC118B15236C84DF00CBD327 /* TempConvertViewController.swift in Sources */,
 				AC118AFF236C82E700CBD327 /* AppDelegate.swift in Sources */,
+				AC118B13236C848100CBD327 /* DayFinderViewController.swift in Sources */,
+				AC118B1D236CC00D00CBD327 /* AppearanceViewController.swift in Sources */,
 				AC118B01236C82E700CBD327 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
